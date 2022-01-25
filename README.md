@@ -1,9 +1,15 @@
 # TextMate Todo
+Manage todos like textmate editor.
+## Usage
 
-## Overview
-Manage todo like textmate editor.
+**Add new todo item**
+    - Mac:   `Command` **+**  `Option` **+**    `Enter` 
+    - Linux/Window:   `Start` **+**  `Alt` **+**    `Enter`   
+    
+**Mark todo as complete ✔  un-complete **-** **
+    - Mac:   `Command` **+**    `Enter` 
+    - Linux/Window:   `Alt` **+**    `Enter`   
 
-## Usage 
-
-
+## Preview
+![enter image description here](https://raw.githubusercontent.com/devbith/taskmate-todo/main/resources/preview.gif)
 
