@@ -1,5 +1,11 @@
 # TextMate Todo
-Manage todos like textmate editor.
+
+Manage todos like textmate
+
+<img src="https://raw.githubusercontent.com/devbith/taskmate-todo/main/resources/logo.png" height="30" > 
+
+
+
 ## Usage
 
  **Add new todo item**
