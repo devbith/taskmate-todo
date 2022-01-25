@@ -3,7 +3,7 @@
   "displayName": "TextMate Todo",
   "description": "Manage todo like textmate editor",
   "publisher": "BishalThapa",
-  "icon": "./resources/logo.png",
+  "icon": "resources/logo.png",
   "version": "0.0.1",
   "license": "MIT",
   "engines": {
