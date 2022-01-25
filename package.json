@@ -4,7 +4,7 @@
   "description": "Manage todo like textmate editor",
   "publisher": "BishalThapa",
   "icon": "resources/logo.png",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "engines": {
     "vscode": "^1.63.0"
@@ -106,7 +106,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devbith/textmate-todo.git"
+    "url": "https://github.com/devbith/taskmate-todo"
   },
   "keywords": [
     "vscode",
