@@ -1,0 +1,23 @@
+{
+    "scopeName": "todo",
+    "patterns": [{ "include": "#expression" }],
+    "repository": {
+      "expression": {
+        "patterns": [{ "include": "#uncomplete-expression" }, { "include": "#complete-expression" }, { "include": "#header-expression" }]
+      },
+      "uncomplete-expression": {
+         "begin": "^(\\s*)(-)",
+         "end": " ",
+         "name": "task-todo.uncomplete"
+      },
+      "complete-expression": {
+        "begin": "^(\\s*)(✔)",
+        "end": " ",
+        "name": "task-todo.complete"
+     },
+      "header-expression": {
+        "match": ".*:$",
+        "name": "task-todo.heading"
+      }
+    }
+  }

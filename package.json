@@ -1,0 +1,130 @@
+{
+  "name": "textmate-todo",
+  "displayName": "TextMate Todo",
+  "description": "Manage todo like manage in textmate",
+  "version": "0.0.1",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onLanguage:todo",
+    "onLanguage:task"
+  ],
+  "contributes": {
+    "configurationDefaults": {
+      "editor.tokenColorCustomizations": {
+        "[Default Dark+]": {
+          "textMateRules": [
+            {
+              "scope": "task-todo.complete",
+              "settings": {
+                "foreground": "#1bdb5b",
+                "fontStyle": "bold"
+              }
+            },
+            {
+              "scope": "task-todo.uncomplete",
+              "settings": {
+                "foreground": "#e00606"
+              }
+            },
+            {
+              "scope": "task-todo.heading",
+              "settings": {
+                "foreground": "#048eff",
+                "fontStyle": "bold"
+              }
+            }
+          ]
+        },
+        "textMateRules": [
+          {
+            "scope": "task-todo.complete",
+            "settings": {
+              "foreground": "#05ac37",
+              "fontStyle": "bold"
+            }
+          },
+          {
+            "scope": "task-todo.uncomplete",
+            "settings": {
+              "foreground": "#e00606"
+            }
+          },
+          {
+            "scope": "task-todo.heading",
+            "settings": {
+              "foreground": "#1d35bd",
+              "fontStyle": "bold"
+            }
+          }
+        ]
+      }
+    },
+    "keybindings": [
+      {
+        "command": "todo.addNewTodo",
+        "key": "alt+cmd+enter",
+        "mac": "alt+cmd+enter",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "todo.toggleDone",
+        "key": "cmd+d",
+        "mac": "cmd+d",
+        "when": "editorTextFocus"
+      }
+    ],
+    "languages": [
+      {
+        "id": "todo",
+        "extensions": [
+          ".todo",
+          ".task"
+        ],
+        "aliases": [
+          "task",
+          "todo"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "todo",
+        "scopeName": "todo",
+        "path": "./syntax/todo.tmGrammar.json"
+      }
+    ]
+  },
+  "author": {
+    "name": "Bishal Thapa",
+    "email": "dev.bith@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devbith/textmate-todo.git"
+  },
+  "keywords": [
+    "vscode",
+    "extension",
+    "todo",
+    "task",
+    "texmate",
+    "todos",
+    "tasks"
+  ],
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.63.0",
+    "@types/node": "14.x",
+    "typescript": "^4.5.4",
+    "@vscode/test-electron": "^2.0.3"
+  }
+}
