@@ -14,8 +14,8 @@ Manage todos like textmate
     
     
  **Mark todo as ✓ complete or - uncomplete** 
-- Mac:   `Command` **+**    `Enter` 
-- Linux/Window:   `Alt` **+**    `Enter`   
+- Mac:   `Command` **+**    `D` 
+- Linux/Window:   `Alt` **+**    `D`   
 
 ## Preview
 ![enter image description here](https://raw.githubusercontent.com/devbith/taskmate-todo/main/resources/preview.gif)
