@@ -1,3 +1,9 @@
 # TextMate Todo
 
-Manage todo like in textmate
+## Overview
+Manage todo like textmate editor.
+
+## Usage 
+
+
+

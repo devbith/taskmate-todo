@@ -1,7 +1,9 @@
 {
   "name": "textmate-todo",
   "displayName": "TextMate Todo",
-  "description": "Manage todo like manage in textmate",
+  "description": "Manage todo like textmate editor",
+  "publisher": "BishalThapa",
+  "icon": "./resources/logo.png",
   "version": "0.0.1",
   "license": "MIT",
   "engines": {
@@ -72,7 +74,7 @@
       },
       {
         "command": "todo.toggleDone",
-        "key": "cmd+d",
+        "key": "alt+d",
         "mac": "cmd+d",
         "when": "editorTextFocus"
       }
