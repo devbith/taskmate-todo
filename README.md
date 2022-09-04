@@ -1,10 +1,11 @@
-# TextMate Todo
+# TextMate Todo 
 
 Manage todos like textmate
 
 <img src="https://raw.githubusercontent.com/devbith/taskmate-todo/main/resources/logo.png" height="30" > 
 
 
+### <a href="https://marketplace.visualstudio.com/items?itemName=BishalThapa.textmate-todo"> Install </a>
 
 ## Usage
 
