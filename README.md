@@ -1,6 +1,6 @@
 # TextMate Todo 
 
-Manage todos like textmate
+Manage todos like <a href="https://macromates.com/">Textmate</a>
 
 <img src="https://raw.githubusercontent.com/devbith/taskmate-todo/main/resources/logo.png" height="30" > 
 
